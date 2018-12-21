@@ -224,9 +224,9 @@
             // comboBox1
             // 
             this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.fKAnswerToQuestionBindingSource1, "Content", true));
-            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.fKAnswerToQuestionBindingSource1, "Valid", true));
-            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.fKAnswerToQuestionBindingSource1, "Valid", true));
             this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("SelectedItem", this.fKAnswerToQuestionBindingSource1, "Valid", true));
+            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("Tag", this.fKAnswerToQuestionBindingSource1, "Valid", true));
+            this.comboBox1.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.fKAnswerToQuestionBindingSource1, "Id", true));
             this.comboBox1.DataSource = this.fKAnswerToQuestionBindingSource1;
             this.comboBox1.DisplayMember = "Content";
             this.comboBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
